@@ -1,0 +1,22 @@
+#rightClickMenu {
+	width:92px;
+	height:auto;
+	position: absolute;
+	z-index: 100;
+	left: 56px;
+	border: 1px solid #999;
+	background: #fff;
+	border-radius: 2px;
+}
+#rightClickMenu p {
+	text-align: center;
+	cursor: pointer;
+	margin: auto;
+	letter-spacing: 1px;
+	text-align: left;
+	padding-left: 6px;
+	padding-top: 2px;
+}
+#rightClickMenu p:hover {
+	background: #e6f7ff;
+}

@@ -1,0 +1,22 @@
+.login-form {
+	margin: auto;
+	position: relative;
+	top: 120px;
+	max-width: 300px;
+}
+.login-form button {
+	width: 100%;
+}
+.company {
+	text-align: center;
+	font-size: 18px;
+    color: #fff;
+}
+.wrap {
+	width: 100%;
+	height: 100%;
+}
+body {
+	/* background: url(../img/bg.jpg); */
+	background-size: 100%;
+}

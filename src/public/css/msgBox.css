@@ -1,0 +1,27 @@
+.ant-layout-content::-webkit-scrollbar{
+    width:0px;
+    opacity:0;
+    -webkit-overflow-scrolling: touch;
+}
+
+.MsgBox::-webkit-scrollbar {
+    width:0px;
+    opacity:0;
+    -webkit-overflow-scrolling: touch;
+}
+
+.NotifyAffairs::-webkit-scrollbar {
+    width:0px;
+    opacity:0;
+    -webkit-overflow-scrolling: touch;
+}
+
+.msgBoxList::-webkit-scrollbar {
+    width:0px;
+    opacity:0;
+    -webkit-overflow-scrolling: touch;
+}
+
+.msg_item {
+    -webkit-line-clamp: 3
+}

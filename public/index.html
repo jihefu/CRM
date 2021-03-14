@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#1890ff">
+    <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=5pMjYGfmzv0AlkNkwxyRTWWCNwpHeqlc"></script>
+    <title>杭州朗杰测控技术开发有限公司</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+  <script>
+      window.selfClientCount = 0;
+      window.BMap = BMap;
+      window.MSGTIMER;
+      window.onresize = function(){
+        try {
+          const w1 = $('.orderItem').width();
+          const w2 = $('.orderItem2').width();
+          $('.itemShow').width(w1);
+          $('.itemShow2').width(w2*2);
+        } catch (e) {
+
+        }
+      }
+  </script>
+  <script src="https://www.langjie.com/js/kendo/jquery.min.js"></script>
+</html>

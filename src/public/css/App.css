@@ -1,0 +1,53 @@
+@import '~antd/dist/antd.css';
+
+.logo {
+    width: 176px;
+    height: 30px;
+    margin: 16px 24px 16px -26px;
+    float: left;
+}
+
+.softProjectForm .ant-form-item {
+	display: flex;
+}
+.softProjectForm .ant-form-item-control-wrapper {
+	flex: 1;
+}
+
+.virProductsInfo .virProductsInfo-table table {
+	table-layout : fixed!important;
+}
+
+/* .sideMenuWrap::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.sideMenuWrap::-webkit-scrollbar {
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.sideMenuWrap::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #efefef;
+}
+
+.chats::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.chats::-webkit-scrollbar {
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.chats::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #efefef;
+} */
